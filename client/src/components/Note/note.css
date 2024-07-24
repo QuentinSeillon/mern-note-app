@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* pour ajouter de l'espace entre les éléments */
+    padding: 0;
+    margin: 0;
+}
+
+.note-container {
+    border: 1px solid #ccc;
+    flex-basis: calc(25% - 20px); /* 25% pour 4 éléments par ligne, moins la marge */
+    box-sizing: border-box; /* Assurez-vous que la bordure et le padding sont inclus dans la largeur */
+    height: 150px;
+    padding: 10px;
+    margin: 10px 0; /* Ajustez la marge verticale si nécessaire */
+}

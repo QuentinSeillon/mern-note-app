@@ -1,0 +1,13 @@
+.sidemenu {
+    background-color: lightgray;
+    height: 100vh;
+    width: 30vw;
+}
+
+.sidemenu-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}

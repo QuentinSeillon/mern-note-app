@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 
 
 app.use('/', require('./routes/authRoutes'));
+app.use('/notes', require('./routes/noteRoutes'));
 
 
 
