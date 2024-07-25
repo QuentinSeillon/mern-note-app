@@ -1,1 +1,18 @@
+# Ignorer les fichiers de cache
+node_modules/
+npm-cache/
+yarn-cache/
+
+# Ignorer les fichiers de configuration IDE
+.idea/
+.vscode/
+
+# Ignorer les fichiers générés
+build/
+dist/
+
+# Ignorer les fichiers de test
+test/
+
+# Ignorer le fichier .env
 .env
